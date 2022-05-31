@@ -51,7 +51,7 @@ $json_countries_array = json_encode($country_array);
   </div>
 
   <div class="input-group mb-3">
-    <input type="text" class="form-control" pattern="-?\d{1,3}\.\d+" name='input_latitude' id = 'input_latitude'   placeholder="latitude" valie>
+    <input type="text" class="form-control" pattern="-?\d{1,3}\.\d+" name='input_latitude' id = 'input_latitude'   placeholder="latitude" >
   </div>
 
   <div class="input-group mb-3">

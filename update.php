@@ -7,14 +7,14 @@ $adress = $_POST['input_adress'];
 $country = $_POST['country_select'];
 $id = $_POST['input_id'];
 
-if(isset($_POST['input_latitude'])){
+if(!empty($_POST['input_latitude'])){
     $latitude = $_POST['input_latitude'];
 }
 else{
     $latitude = 0;
 }
 
-if(isset($_POST['input_longitude'])){
+if(!empty($_POST['input_longitude'])){
     $longitude = $_POST['input_longitude'];
 }
 else{

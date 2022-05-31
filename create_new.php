@@ -4,12 +4,12 @@ require_once "connection.php";
 $title = $_POST['input_title'];
 $date = $_POST['input_date'];
 $adress = $_POST['input_adress'];
-if((isset($_POST['input_latitude']))){
+if((!empty($_POST['input_latitude']))){
     $latitude = $_POST['input_latitude'];
 }else{
     $latitude = 0;
 }
-if(isset($_POST['input_longitude'])){
+if(!empty($_POST['input_longitude'])){
     $longitude = $_POST['input_longitude'];
 }else{
     $longitude = 0;
