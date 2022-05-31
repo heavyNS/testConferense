@@ -1,0 +1,12 @@
+.footer{
+    position: fixed;
+    background-color: rgb(185, 176, 41);
+    bottom: 0;
+    text-align: center;
+    font-size: 13px;
+    color: white;
+    padding: 0px;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}

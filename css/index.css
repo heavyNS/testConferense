@@ -1,0 +1,13 @@
+#obj_conf{
+    border-style: solid;
+    align-content: center;
+    text-align: center;
+    background-color: darkgray;
+    width: 50% ;
+    display: block;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin: 20px auto;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+

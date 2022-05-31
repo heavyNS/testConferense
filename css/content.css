@@ -1,0 +1,58 @@
+.content{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+
+}
+.content a{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+} 
+
+.content a:hover{
+    color: aqua;
+}
+
+#map{
+    width: auto;
+    height:400px;
+}
+
+#details_buttons{
+    text-align: center;
+    display: block;
+    margin: 30px;
+}
+
+#back_button{
+    width: 10%;
+}
+
+#delete_button{
+    width: 10%;
+}
+
+#edit_button{
+    width: 10%;
+}
+
+#save_button{
+    width: 10%;
+}
+
+#edit_content{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+}
+
+
+#title_input{
+    margin-top: 10px;
+}
+
+#id_input{
+    display: none;
+}
